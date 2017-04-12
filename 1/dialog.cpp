@@ -10,8 +10,8 @@ Dialog::Dialog(QWidget *parent)
 {
     QVBoxLayout* main = new QVBoxLayout(this);
 
-    QHBoxLayout *input = new QHBoxLayout(this);
-    QHBoxLayout *buttons = new QHBoxLayout(this);
+    QHBoxLayout *input = new QHBoxLayout;
+    QHBoxLayout *buttons = new QHBoxLayout;
 
     main->addLayout(input);
     main->addLayout(buttons);
@@ -36,3 +36,4 @@ Dialog::~Dialog()
 {
 
 }
+
