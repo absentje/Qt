@@ -3,7 +3,6 @@
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QMessageBox>
-#include <iostream>
 
 Dialog::Dialog(QWidget *parent)
     : QWidget(parent)
