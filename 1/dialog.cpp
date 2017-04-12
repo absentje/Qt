@@ -20,7 +20,6 @@ Dialog::Dialog(QWidget *parent)
     auto m_name = new QLineEdit(this);
     auto m_btnOk = new QPushButton("OK", this);
     auto m_btnExit = new QPushButton("Exit", this);
-    m_Name->setMaximumSize(QSize(150, 100));
     input->addWidget(m_Name);
     input->addWidget(m_name);
     buttons->addWidget(m_btnOk);
