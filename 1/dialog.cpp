@@ -7,6 +7,7 @@
 Dialog::Dialog(QWidget *parent)
     : QWidget(parent)
 {
+    setWindowTitle("Dialog");
     QVBoxLayout* main = new QVBoxLayout(this);
 
     QHBoxLayout *input = new QHBoxLayout;
