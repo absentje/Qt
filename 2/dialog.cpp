@@ -1,5 +1,4 @@
 #include "dialog.h"
-#include <QLabel>
 
 Dialog::Dialog(QWidget *parent)
     : QWidget(parent)
