@@ -6,8 +6,6 @@
 #include <set>
 #include <locale.h>
 
-#include <QFile>
-#include <QTextStream>
 // include project files
 #include "make_full_html_file.h"
 #include "dialog.h"
