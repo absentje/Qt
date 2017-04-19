@@ -1,9 +1,4 @@
 #include <QApplication>
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <list>
-#include <set>
 #include <locale.h>
 
 // include project files
