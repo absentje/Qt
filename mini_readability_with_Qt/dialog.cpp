@@ -8,7 +8,7 @@
 Dialog::Dialog(QWidget *parent)
     : QWidget(parent)
 {
-    setWindowTitle("Dialog");
+    setWindowTitle("Readability");
 //  the main layout
     QVBoxLayout* main = new QVBoxLayout(this);
 //  other layouts
