@@ -1,6 +1,17 @@
 #include "dialog.h"
 #include "make_full_html_file.h"
 #include "html_parser.h"
+
+#include <QLabel>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QRadioButton>
+#include <QCheckBox>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGroupBox>
+#include <QTextEdit>
+
 #include <fstream>
 #include <cstdio>
 
