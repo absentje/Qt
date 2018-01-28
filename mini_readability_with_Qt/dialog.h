@@ -2,15 +2,16 @@
 #define DIALOG_H
 
 #include <QWidget>
-#include <QLabel>
-#include <QLineEdit>
-#include <QPushButton>
-#include <QRadioButton>
-#include <QCheckBox>
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-#include <QGroupBox>
-#include <QTextEdit>
+
+class QLabel;
+class QLineEdit;
+class QPushButton;
+class QRadioButton;
+class QCheckBox;
+class QVBoxLayout;
+class QHBoxLayout;
+class QGroupBox;
+class QTextEdit;
 
 class Dialog : public QWidget
 {
